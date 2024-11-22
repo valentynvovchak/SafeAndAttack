@@ -167,7 +167,7 @@ http://localhost:8000/api/ads/2/
 
 ---
 
-## ⚙️ Як розгорнути проект
+## ⚙️ Як розгорнути захищений проект
 
 ### 1. Клонування репозиторію:
 ```bash
@@ -215,7 +215,15 @@ cd safe-and-attack
    npm start
    ```
 
+## ⚙️ Як розгорнути НЕзахищений проект
+1. **Перейдіть у папку `attacks`:**
+   ```bash
+   python app.py
+   ```
+
 ### 4. Доступ до сайту:
-- **Бекенд:** [http://localhost:8000](http://localhost:8000)  
-- **Фронтенд:** [http://localhost:3000](http://localhost:3000)  
+- **Бекенд захищеного сайту:** [http://localhost:8000](http://localhost:8000)  
+- **Фронтенд захищеного сайту:** [http://localhost:3000](http://localhost:3000)  
+- --
+- **Незахизений сайт:** [http://localhost:5000](http://localhost:5000)  
 
